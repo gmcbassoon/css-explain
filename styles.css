@@ -1,0 +1,39 @@
+div {
+    color: purple;
+}
+/* Above is a type selector */
+.alert-text {
+    color: red;
+}
+/* Above is a class selector */
+#title {
+    background-color: red;
+}
+/* Above is an ID selector, which will always use a #. Use IDs sparingly, if at all */
+.read,
+.unread {
+    color: white;
+    background-color: black;
+}
+/* Above is a grouping selector. If a few elements share some style declarations, you can combine them. */
+
+.read {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.unread {
+
+}
+.subsection.header {
+    color: red;
+    text-align:center
+}
+/* This will look for the class labeled subsection header */
+.subsection#preview {
+    color: blue;
+}
+
+/* This one will look for the class labeled subsection and with the ID preview */
+img {
+    height: auto;
+    width: 500px;
+}
